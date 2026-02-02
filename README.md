@@ -1,6 +1,6 @@
 # Tutoriel d'initialisation du server
 
-## Sur votre machine personelle
+> Sur votre machine personelle
 
 ```bash
 export INSTALL_PATH=/tmp # selon préference personelle
@@ -24,6 +24,8 @@ sudo dd if=./latest-nixos-minimal-x86_64-linux.iso of=$INSTALL_DISK bs=8m
 ```
 
 ### Step 3 : Installer et configurer ssh sur le server NixOS
+
+> Sur le server
 
 - Install Nixos (Linux LTS)
 
